@@ -1,0 +1,11 @@
+.result-container{
+    margin-top: 10px;
+    columns: 6 200px;
+    column-gap: 10px;
+  }
+  
+  .result-image {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 3px
+  }

@@ -10,7 +10,7 @@ function SearchBar({ onSubmit }) {
     event.preventDefault();
     onSubmit(term);
   };
-  
+
   return (
     <div>
       <div>Enter search term</div>
@@ -21,9 +21,4 @@ function SearchBar({ onSubmit }) {
   );
 }
 
-/* const handleFormSubmit = (event) => {
-    event.preventDefault();
-    const searchTerm = event.target[0].value;
-    onSubmit(searchTerm);
-  }; */
 export default SearchBar;
