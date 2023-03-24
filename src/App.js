@@ -4,12 +4,12 @@ import BookList from "./components/BookList";
 import BooksContext from "./context/books";
 
 function App() {
-  const { fetchBooks } = useContext(BooksContext);
+  const { stableFetchBooks } = useContext(BooksContext);
 
   //fetch on component first load only []
   useEffect(() => {
-    fetchBooks();
-  }, []);
+    stableFetchBooks();
+  }, [stableFetchBooks]);
 
   return (
     <div className="app">
