@@ -1,5 +1,7 @@
 import Dropdown from "./components/Dropdown";
 import { useState } from "react";
+
+
 function App() {
     const [selection, setSelection] = useState(null);
 
@@ -15,7 +17,7 @@ function App() {
 
   return (
     <div>
-      <Dropdown options={options} selection={selection} onSelect={handleSelect}></Dropdown>
+      <Dropdown options={options} value={selection} onChange={handleSelect}></Dropdown>
     </div>
   );
 }
