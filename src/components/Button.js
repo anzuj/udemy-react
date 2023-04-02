@@ -16,7 +16,7 @@ const classes = classnames(rest.className,'flex items-center px-3 py-1.5 border 
     'rounded-full': rounded,
     'bg-white ': outline,
     'text-blue-500': outline && primary,
-    'text-gray-900': outline && secondary,
+    'text-black': outline && secondary,
     'text-green-500': outline && success,
     'text-red-500': outline && danger,
     'text-yellow-400': outline && warning,

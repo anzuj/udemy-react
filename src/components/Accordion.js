@@ -43,7 +43,7 @@ function Accordion({ items }) {
   });
 
   return (
-    <div className="p-8">
+    <div className="">
       <div className="text-xl">Accordion</div>
       <div className="border rounded"> {renderedItems} </div>
     </div>

@@ -1,9 +1,7 @@
 import Button from "../components/Button";
 import { GoBell, GoCloudDownload } from "react-icons/go";
 function ButtonPage() {
-  const handleHover = () => {
-    console.log("Hover!");
-  };
+
 
   const handleClick = () => {
     console.log("Click!");
@@ -30,7 +28,7 @@ function ButtonPage() {
         <Button warning>Warning</Button>
       </div>
       <div>
-        <Button danger onMouseOver={handleHover}>
+        <Button danger>
           Danger
         </Button>
       </div>
