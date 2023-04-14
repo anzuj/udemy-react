@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Johnathan Bernier",
+      "id": 2
+    },
+    {
+      "name": "Hilda Medhurst",
+      "id": 3
+    },
+    {
+      "name": "Matthew Grant",
+      "id": 4
+    },
+    {
+      "name": "Ms. Billie Davis",
+      "id": 5
+    },
+    {
+      "name": "Clayton Jerde",
+      "id": 6
+    },
+    {
+      "name": "Tricia Gislason",
+      "id": 7
+    },
+    {
+      "name": "Gabriel Green",
+      "id": 8
+    },
+    {
+      "name": "Darnell Torphy",
+      "id": 9
+    },
+    {
+      "name": "Gerardo Ankunding V",
+      "id": 10
+    },
+    {
+      "name": "Aubrey Hilll",
+      "id": 11
+    }
+  ],
+  "albums": [],
+  "photos": []
+}
